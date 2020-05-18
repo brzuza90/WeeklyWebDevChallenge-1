@@ -4,15 +4,16 @@
     box-sizing: border-box;
 }
 
+body {
+    background: center/cover url('../img/tlo1.jpg');
+}
+
 .wrap {
     display: flex;
     flex-direction: column;
     width: 80%;
     margin: 0 auto;
     min-height: 100vh;
-    background-image: url('../img/tlo1.jpg');
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
 }
 
 .wrap header {
